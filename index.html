@@ -42,9 +42,7 @@
 
     <ul class="nav__menu" id="navMenu">
       <li><a href="#about" class="nav__link">About</a></li>
-      <li><a href="#experience" class="nav__link">Experience</a></li>
       <li><a href="#skills" class="nav__link">Skills</a></li>
-      <li><a href="#projects" class="nav__link">Projects</a></li>
       <li><a href="#education" class="nav__link">Education</a></li>
       <li><a href="#contact" class="nav__link">Contact</a></li>
     </ul>
@@ -65,10 +63,10 @@
     <img class="hero__avatar" src="assets/avatar.svg" alt="Portrait placeholder for Kirill Derevyanchenko" width="120" height="120">
     <p class="hero__eyebrow">Hello, I'm</p>
     <h1 id="hero-heading" class="hero__name"><!-- EDIT: name -->Kirill Derevyanchenko</h1>
-    <p class="hero__title"><!-- EDIT: job title -->Senior Frontend Engineer</p>
+    <p class="hero__title"><!-- EDIT: job title -->Software Engineer, Founder</p>
     <p class="hero__location">
       <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
-      <!-- EDIT: location -->Almaty, Kazakhstan &middot;
+      <!-- EDIT: location -->Almaty, Kazakhstan
     </p>
   </section>
 </header>
@@ -81,58 +79,10 @@
     <h2 id="about-heading" class="section__title">A little about me</h2>
     <p class="about__text">
       <!-- EDIT: bio -->
-      I'm a frontend engineer with eight years of experience turning complex product
-      requirements into fast, accessible interfaces. I care most about the details that
-      make software feel effortless — thoughtful motion, resilient layouts, and code
-      that the next person can actually read. Lately I've been focused on design
-      systems and performance budgets for consumer-facing web apps.
+      I'm a software engineer and founder. I am currently interested in creating and developing my own product.
+      I care most about the details that make software really useful and solve people's problems.
+
     </p>
-  </section>
-
-  <!-- ===== EXPERIENCE — EDIT ME ===== -->
-  <section id="experience" class="section" aria-labelledby="experience-heading">
-    <p class="section__eyebrow">Experience</p>
-    <h2 id="experience-heading" class="section__title">Where I've worked</h2>
-
-    <ol class="timeline">
-      <li class="timeline__item">
-        <div class="timeline__header">
-          <h3 class="timeline__role"><!-- EDIT -->Senior Frontend Engineer</h3>
-          <span class="timeline__date">2022 — Present</span>
-        </div>
-        <p class="timeline__company"><!-- EDIT -->Northwind Digital</p>
-        <ul class="timeline__list">
-          <li>Led the migration of a legacy jQuery dashboard to a component-based architecture, cutting page load time by 40%.</li>
-          <li>Built and maintained a shared design system used across 6 product teams.</li>
-          <li>Mentored two junior engineers through their first year of ownership on production features.</li>
-        </ul>
-      </li>
-
-      <li class="timeline__item">
-        <div class="timeline__header">
-          <h3 class="timeline__role"><!-- EDIT -->Frontend Engineer</h3>
-          <span class="timeline__date">2019 — 2022</span>
-        </div>
-        <p class="timeline__company"><!-- EDIT -->Bluepeak Software</p>
-        <ul class="timeline__list">
-          <li>Shipped the customer-facing analytics dashboard from prototype to GA in 5 months.</li>
-          <li>Introduced automated visual regression testing, reducing shipped UI bugs by 30%.</li>
-          <li>Partnered with design to establish accessibility guidelines adopted company-wide.</li>
-        </ul>
-      </li>
-
-      <li class="timeline__item">
-        <div class="timeline__header">
-          <h3 class="timeline__role"><!-- EDIT -->Junior Web Developer</h3>
-          <span class="timeline__date">2017 — 2019</span>
-        </div>
-        <p class="timeline__company"><!-- EDIT -->Solace Studio</p>
-        <ul class="timeline__list">
-          <li>Built marketing sites and landing pages for a range of small-business clients.</li>
-          <li>Owned the transition from static HTML templates to a lightweight CMS workflow.</li>
-        </ul>
-      </li>
-    </ol>
   </section>
 
   <!-- ===== SKILLS — EDIT ME ===== -->
@@ -144,59 +94,23 @@
       <div class="skills__group">
         <h3 class="skills__label">Languages &amp; Frameworks</h3>
         <ul class="tag-list">
-          <li class="tag">JavaScript</li>
-          <li class="tag">TypeScript</li>
-          <li class="tag">React</li>
+          <li class="tag">Python</li>
+          <li class="tag">Java</li>
+          <li class="tag">FastAPI</li>
           <li class="tag">HTML &amp; CSS</li>
-          <li class="tag">Node.js</li>
+          <li class="tag">JavaScript</li>
         </ul>
       </div>
       <div class="skills__group">
         <h3 class="skills__label">Tools</h3>
         <ul class="tag-list">
           <li class="tag">Git</li>
+          <li class="tag">Linux</li>
+          <li class="tag">Render</li>
+          <li class="tag">Claude</li>
           <li class="tag">Figma</li>
-          <li class="tag">Vite</li>
-          <li class="tag">Playwright</li>
-          <li class="tag">Storybook</li>
         </ul>
       </div>
-      <div class="skills__group">
-        <h3 class="skills__label">Practices</h3>
-        <ul class="tag-list">
-          <li class="tag">Accessibility</li>
-          <li class="tag">Design systems</li>
-          <li class="tag">Performance tuning</li>
-          <li class="tag">Code review</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== PROJECTS — EDIT ME ===== -->
-  <section id="projects" class="section" aria-labelledby="projects-heading">
-    <p class="section__eyebrow">Projects</p>
-    <h2 id="projects-heading" class="section__title">Selected work</h2>
-
-    <div class="cards">
-      <article class="card">
-        <h3 class="card__title">Palette</h3>
-        <p class="card__desc">A tiny color-contrast checker for design systems, built as a static web app with zero dependencies.</p>
-        <p class="card__tech">HTML &middot; CSS &middot; JavaScript</p>
-        <a class="card__link" href="#">View project →</a>
-      </article>
-      <article class="card">
-        <h3 class="card__title">Sprout</h3>
-        <p class="card__desc">An open-source component library focused on accessible form controls for React apps.</p>
-        <p class="card__tech">React &middot; TypeScript</p>
-        <a class="card__link" href="#">View project →</a>
-      </article>
-      <article class="card">
-        <h3 class="card__title">Fieldnotes</h3>
-        <p class="card__desc">A minimal note-taking PWA with offline support and full keyboard navigation.</p>
-        <p class="card__tech">JavaScript &middot; Service Workers</p>
-        <a class="card__link" href="#">View project →</a>
-      </article>
     </div>
   </section>
 
@@ -207,10 +121,10 @@
 
     <div class="education">
       <div class="education__header">
-        <h3 class="education__degree"><!-- EDIT -->B.Sc. in Computer Science</h3>
-        <span class="timeline__date">2013 — 2017</span>
+        <h3 class="education__degree"><!-- EDIT -->Cybersecurity</h3>
+        <span class="timeline__date">2024 — 2028</span>
       </div>
-      <p class="education__school"><!-- EDIT -->University of Lisbon</p>
+      <p class="education__school"><!-- EDIT -->Narxoz University</p>
     </div>
   </section>
 
@@ -220,25 +134,25 @@
 <footer id="contact" class="footer" aria-labelledby="contact-heading">
   <p class="section__eyebrow">Contact</p>
   <h2 id="contact-heading" class="footer__title">Let's work together</h2>
-  <p class="footer__text">I'm currently open to new opportunities — feel free to reach out.</p>
+  <p class="footer__text">I'm currently open to new opportunities.</p>
 
   <ul class="footer__links">
     <li>
       <a href="mailto:kirill.derevyanchenko@example.com">
         <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m2 6 10 7 10-7"></path></svg>
-        kirill.derevyanchenko@example.com
+        kirill.derevyanchenko@narxoz.kz
       </a>
     </li>
     <li>
       <a href="https://github.com/kirillderevyanchenko" target="_blank" rel="noopener noreferrer">
         <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg>
-        github.com/kirillderevyanchenko
+        github.com/KirillKopkot
       </a>
     </li>
     <li>
       <a href="https://linkedin.com/in/kirillderevyanchenko" target="_blank" rel="noopener noreferrer">
         <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M10 9v12M10 13a4 4 0 0 1 8 0v8"></path></svg>
-        linkedin.com/in/kirillderevyanchenko
+        linkedin.com/in/kirill-derevyanchenko-767a13343/
       </a>
     </li>
   </ul>
