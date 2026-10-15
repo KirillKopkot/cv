@@ -241,6 +241,7 @@ h1, h2, h3 { margin: 0; line-height: 1.2; }
   width: 96px;
   height: 96px;
   border-radius: 50%;
+  object-fit: cover;
   margin-bottom: var(--space-4);
   border: 1px solid var(--color-border);
 }
